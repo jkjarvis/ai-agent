@@ -1,0 +1,13 @@
+KEYS
+----
+
+1. Azure key1 - 1e21fd2195e54196a881a236f806723e
+2. Azure key2 - 4cbc3fdaed3a46a6974cf562cd9ea196
+3. Region - centralindia
+4. Endpoint - https://centralindia.api.cognitive.microsoft.com/
+5. REPLICATE_API_TOKEN=r8_TQIxF31tNTgmHp8ZlRHVXQ9D7SrE7Ub0Jyi7Z
+
+
+export SPEECH_KEY=1e21fd2195e54196a881a236f806723e
+export SPEECH_REGION=centralindia
+export REPLICATE_API_TOKEN=r8_BXwiEE3pg35i0g8A1vAC0zDWkPthOuE1J9L98

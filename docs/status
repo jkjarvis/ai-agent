@@ -1,0 +1,7 @@
+STATUS
+-----
+
+1. English Model Prototype
+
+	-> STT - done using OpenAi Whisper
+	-> Input Audio - done using python sounddevice library (currently 5 secs recording)

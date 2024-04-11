@@ -1,0 +1,14 @@
+PROTOTYPE
+---------
+
+1. Option to input audio - currently an audio file works and sockets too :)
+2. Parse audio to text - working for english -> working with sockets :)
+3. Input text to model - TBD
+4. Get response - TBD
+5. Output response as speech - currently working with ElevenLabs -> need to integrate OR Azure is better option in terms of free minutes and quality
+
+DESIGN
+------
+
+
+User inputs audio -> audio transcribed (STT) -> Transcribe output to LLMmodel -> LLM outputs text -> TTS using Eleven Labs -> Output to end user

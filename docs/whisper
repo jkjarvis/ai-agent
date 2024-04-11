@@ -1,0 +1,33 @@
+
+IVR
+---
+
+1. Speech To Text
+-----------------
+
+1. Whisper model by OpenAI
+
+-> works good with python
+-> outputs good result, even my voice is recognised in english an following was the output
+
+"Hello, so this is Anutaman, I want to talk about how can I buy an ICIC fan credit card. So I already have a credit card from HSC fan and it has a limit of 1 lakh. So what I am looking for is purchasing a credit card which can get me a limit of around"
+
+" When I find myself in times of trouble, Mother Mary comes to me, speaking words of wisdom, let it be, and in my own redotter, she is standing right in front of me, speaking words of wisdom, let it be, let it be, let it be, let it be, whisper words of wisdom, let it be, and when the broken heart and people living in the world agree, there will be an answer, let it be, but though they may be parted, there is still a chance that they will see, there will be an answer, let it be, let it be, let it be, let it be, let it be, yeah, there will be an answer, let it be, let it be, let it be, let it be, let it be, whisper words of wisdom, let it be, let it be, let it be, let it be, let it be, yeah, there will be an answer, let it be, let it be, let it be, A whisper words of wisdom, let it be And when the night is cloudy, there is still a light that shines on me Shine until tomorrow, let it be I wake up to the sound of music, more than merry come to me Speaking words of wisdom, let it be Let it be, let it be, let it be Let it be, let it be Oh, down with the feeling I'm sun, let it be Let it be, let it be, let it be Let it be, let it be, let it be Let it be, let it be, let it be One's squire and an rainbow, let it be"
+
+
+English detection is very good but failed with hindi
+
+" mokatam bol rungu mkabhi htfc banker credit card use karram mkabhi credit card credit card credit card credit card credit card credit card credit card credit card credit card credit card"
+
+"mokatam bol rungu mkabhi htfc banker credit card use karram mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi mkabhi m"
+
+Insights
+--------
+
+1. currently ST Tworks good with english with whisper model, can experiment with this
+2. Find a way to use maybe websockets to make it faster and more intuitive like a conversation
+
+Models
+------
+
+['tiny.en', 'tiny', 'base.en', 'base', 'small.en', 'small', 'medium.en', 'medium', 'large-v1', 'large-v2', 'large-v3', 'large']

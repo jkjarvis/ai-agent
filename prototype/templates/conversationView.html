@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat with Server</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        #chat { display: flex; flex-direction: column; }
+        .message { padding: 10px; margin: 5px; border-radius: 8px; max-width: 60%; }
+        .user { background-color: #dcf8c6; align-self: flex-end; }
+        .customer-executive { background-color: #ebebeb; align-self: flex-start; }
+    </style>
+</head>
+<body>
+    <div id="chat"></div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <!-- <script src="script.js"></script> -->
+</body>
+</html>
